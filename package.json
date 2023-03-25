@@ -1,0 +1,24 @@
+{
+  "name": "vueblog",
+  "version": "1.0.0",
+  "description": "colablog",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "deploy": "bash deploy.sh",
+    "build": "vuepress build docs"
+  },
+  "author": "cola99year",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.9",
+    "markdown-it-disable-url-encode": "^1.0.1",
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.9.9",
+    "vuepress-plugin-copy-code2": "^2.0.0-beta.197"
+  }
+}
